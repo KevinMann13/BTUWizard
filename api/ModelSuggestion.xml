@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    ModelSuggestion.xml
+    Broken out list used to suggest model numbers that correspond to a rooms BTU
+
+    FORMAT:
+    <root>
+        <range>
+            <low>Lowest acceptable number</low>
+            <high>Hgihest number</high>
+            <models>
+                <modelNumber type="sample type a">Model to suggest 1</modelNumber>
+                <modelNumber type="sample type b">Model to suggest 2</modelNumber>
+                <modelNumber type="sample type a">Model to suggest 3</modelNumber>
+            </models>
+        </range>
+    </root>
+
+    WARNING:
+       - Make sure that the high of one set is exactely one number lower than the low of the next set
+-->
+<root>
+  <range>
+    <low>0</low>
+    <high>1500</high>
+    <models>
+      <modelNumber type="Self Contained">CX2200</modelNumber>
+      <modelNumber type="Self Contained">SL2500</modelNumber>
+      <modelNumber type="Coil Only">WM2500-C</modelNumber>
+      <modelNumber type="Split System">WM2500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 3300</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 3300R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD3300</modelNumber>
+      <modelNumber type="Coil Only">HM2500-C</modelNumber>
+      <modelNumber type="Split System">HM2500-S</modelNumber>
+      <modelNumber type="Coil Only">VM2500-C</modelNumber>
+      <modelNumber type="Split System">VM2500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM3500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>1501</low>
+    <high>2000</high>
+    <models>
+      <modelNumber type="Self Contained">CX3300</modelNumber>
+      <modelNumber type="Coil Only">WM3500-C</modelNumber>
+      <modelNumber type="Split System">WM3500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 3300</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 3300R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD3300</modelNumber>
+      <modelNumber type="Coil Only">HM2500-C</modelNumber>
+      <modelNumber type="Split System">HM2500-S</modelNumber>
+      <modelNumber type="Coil Only">VM2500-C</modelNumber>
+      <modelNumber type="Split System">VM2500-S</modelNumber>
+      <modelNumber type="Coil Only">FD3500-C</modelNumber>
+      <modelNumber type="Split System">FD3500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM3500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>2001</low>
+    <high>2500</high>
+    <models>
+      <modelNumber type="Self Contained">CX4400</modelNumber>
+      <modelNumber type="Coil Only">WM3500-C</modelNumber>
+      <modelNumber type="Split System">WM3500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 3300</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 3300R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD3300</modelNumber>
+      <modelNumber type="Coil Only">HM2500-C</modelNumber>
+      <modelNumber type="Split System">HM2500-S</modelNumber>
+      <modelNumber type="Coil Only">VM2500-C</modelNumber>
+      <modelNumber type="Split System">VM2500-S</modelNumber>
+      <modelNumber type="Coil Only">FD3500-C</modelNumber>
+      <modelNumber type="Split System">FD3500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM3500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>2501</low>
+    <high>3000</high>
+    <models>
+      <modelNumber type="Self Contained">CX4400</modelNumber>
+      <modelNumber type="Coil Only">WM3500-C</modelNumber>
+      <modelNumber type="Split System">WM3500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 4400</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 4400R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD4400</modelNumber>
+      <modelNumber type="Coil Only">HM2500-C</modelNumber>
+      <modelNumber type="Split System">HM2500-S</modelNumber>
+      <modelNumber type="Coil Only">VM2500-C</modelNumber>
+      <modelNumber type="Split System">VM2500-S</modelNumber>
+      <modelNumber type="Coil Only">FD3500-C</modelNumber>
+      <modelNumber type="Split System">FD3500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM3500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>3001</low>
+    <high>3200</high>
+    <models>
+      <modelNumber type="Self Contained">CX8800</modelNumber>
+      <modelNumber type="Coil Only">WM3500-C</modelNumber>
+      <modelNumber type="Split System">WM3500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 4400</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 4400R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD4400</modelNumber>
+      <modelNumber type="Coil Only">HM3500-C</modelNumber>
+      <modelNumber type="Split System">HM3500-S</modelNumber>
+      <modelNumber type="Coil Only">VM3500-C</modelNumber>
+      <modelNumber type="Split System">VM3500-S</modelNumber>
+      <modelNumber type="Coil Only">FD3500-C</modelNumber>
+      <modelNumber type="Split System">FD3500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM3500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>3201</low>
+    <high>4000</high>
+    <models>
+      <modelNumber type="Self Contained">CX8800</modelNumber>
+      <modelNumber type="Coil Only">WM3500-C</modelNumber>
+      <modelNumber type="Split System">WM3500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD8800</modelNumber>
+      <modelNumber type="Coil Only">HM5000-C</modelNumber>
+      <modelNumber type="Split System">HM5000-S</modelNumber>
+      <modelNumber type="Coil Only">VM5000-C</modelNumber>
+      <modelNumber type="Split System">VM5000-S</modelNumber>
+      <modelNumber type="Coil Only">FD3500-C</modelNumber>
+      <modelNumber type="Split System">FD3500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM6500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM6500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>4001</low>
+    <high>4700</high>
+    <models>
+      <modelNumber type="Self Contained">CX8800</modelNumber>
+      <modelNumber type="Coil Only">WM5000-C</modelNumber>
+      <modelNumber type="Split System">WM5000-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD8800</modelNumber>
+      <modelNumber type="Coil Only">HM6500-C</modelNumber>
+      <modelNumber type="Split System">HM6500-S</modelNumber>
+      <modelNumber type="Coil Only">VM6500-C</modelNumber>
+      <modelNumber type="Split System">VM6500-S</modelNumber>
+      <modelNumber type="Coil Only">FD5000-C</modelNumber>
+      <modelNumber type="Split System">FD5000-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">WM3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">FD3500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM6500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM6500-S-WC</modelNumber>
+
+    </models>
+  </range>
+  <range>
+    <low>4701</low>
+    <high>6000</high>
+    <models>
+      <modelNumber type="Coil Only">WM5000-C</modelNumber>
+      <modelNumber type="Split System">WM5000-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800R</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FD8800</modelNumber>
+      <modelNumber type="Coil Only">HM6500-C</modelNumber>
+      <modelNumber type="Split System">HM6500-S</modelNumber>
+      <modelNumber type="Coil Only">VM6500-C</modelNumber>
+      <modelNumber type="Split System">VM6500-S</modelNumber>
+      <modelNumber type="Coil Only">FD5000-C</modelNumber>
+      <modelNumber type="Split System">FD5000-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM6500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM6500-S-WC</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>6001</low>
+    <high>6150</high>
+    <models>
+      <modelNumber type="Self Contained">Ultimate 8800</modelNumber>
+      <modelNumber type="Self Contained">Ultimate 8800R</modelNumber>
+      <modelNumber type="Coil Only">HM6500-C</modelNumber>
+      <modelNumber type="Split System">HM6500-S</modelNumber>
+      <modelNumber type="Coil Only">VM6500-C</modelNumber>
+      <modelNumber type="Split System">VM6500-S</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM6500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM6500-S-WC</modelNumber>
+      <modelNumber type="Split System">Quantum SS9000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>6151</low>
+    <high>6500</high>
+    <models>
+      <modelNumber type="Coil Only">HM6500-C</modelNumber>
+      <modelNumber type="Split System">HM6500-S</modelNumber>
+      <modelNumber type="Coil Only">VM6500-C</modelNumber>
+      <modelNumber type="Split System">VM6500-S</modelNumber>
+      <modelNumber type="Self Contained">Ultimate FM8800</modelNumber>
+      <modelNumber type="Split System - Water Cooled">HM6500-S-WC</modelNumber>
+      <modelNumber type="Split System - Water Cooled">VM6500-S-WC</modelNumber>
+      <modelNumber type="Split System">Quantum SS9000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>6501</low>
+    <high>7000</high>
+    <models>
+      <modelNumber type="Coil Only">HM7000Twin-C</modelNumber>
+      <modelNumber type="Split System">HM7000Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM7000Twin-C</modelNumber>
+      <modelNumber type="Split System">VM7000Twin-S</modelNumber>
+      <modelNumber type="Split System">Quantum SS9000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>7001</low>
+    <high>7600</high>
+    <models>
+      <modelNumber type="Coil Only">HM7600Twin-C</modelNumber>
+      <modelNumber type="Split System">HM7600Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM7600Twin-C</modelNumber>
+      <modelNumber type="Split System">VM7600Twin-S</modelNumber>
+      <modelNumber type="Split System">Quantum SS9000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>7601</low>
+    <high>8200</high>
+    <models>
+      <modelNumber type="Coil Only">HM8200Twin-C</modelNumber>
+      <modelNumber type="Split System">HM8200Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM8200Twin-C</modelNumber>
+      <modelNumber type="Split System">VM8200Twin-S</modelNumber>
+      <modelNumber type="Split System">Quantum SS9000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>8201</low>
+    <high>9000</high>
+    <models>
+      <modelNumber type="Coil Only">HM10600Twin-C</modelNumber>
+      <modelNumber type="Split System">HM10600Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM10600Twin-C</modelNumber>
+      <modelNumber type="Split System">VM10600Twin-S</modelNumber>
+      <modelNumber type="Split System">Quantum SS9000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>9001</low>
+    <high>10600</high>
+    <models>
+      <modelNumber type="Coil Only">HM10600Twin-C</modelNumber>
+      <modelNumber type="Split System">HM10600Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM10600Twin-C</modelNumber>
+      <modelNumber type="Split System">VM10600Twin-S</modelNumber>
+      <modelNumber type="Split System">Quantum SS12000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>10601</low>
+    <high>12000</high>
+    <models>
+      <modelNumber type="Coil Only">HM13000Twin-C</modelNumber>
+      <modelNumber type="Split System">HM13000Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM13000Twin-C</modelNumber>
+      <modelNumber type="Split System">VM13000Twin-S</modelNumber>
+      <modelNumber type="Split System">Quantum SS12000</modelNumber>
+    </models>
+  </range>
+  <range>
+    <low>12001</low>
+    <high>13000</high>
+    <models>
+      <modelNumber type="Coil Only">HM13000Twin-C</modelNumber>
+      <modelNumber type="Split System">HM13000Twin-S</modelNumber>
+      <modelNumber type="Coil Only">VM13000Twin-C</modelNumber>
+      <modelNumber type="Split System">VM13000Twin-S</modelNumber>
+    </models>
+  </range>
+</root>

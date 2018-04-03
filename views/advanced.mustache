@@ -1,0 +1,106 @@
+<div id="advanced">
+  <h3>Advanced Mode</h3>
+
+  <table>
+    <tr>
+      <th></th>
+      <th>Height (ft)</th>
+      <th>Width (ft)</th>
+      <th>Material</th>
+      <th>Exterior Temp (F)</th>
+      <th class="check">Door</th>
+      <th class="check">Window</th>
+    </tr>
+
+    {{#ws}}
+      <tr id="wall_{{.}}">
+        <td>Wall #{{.}}</td>
+        <td><input class="form-control small_number" type="number" placeholder="Height" name="wall{{.}}_height" value="8"/></td>
+        <td><input class="form-control small_number" type="number" placeholder="Width" name="wall{{.}}_width" value="4" /></td>
+        <td>
+          <select class="form-control" name="wall{{.}}_material">
+          {{#walls}}
+            <option>{{.}}</option>
+          {{/walls}}
+        </select>
+        </td>
+        <td><input class="form-control small_number" type="number" placeholder="Temp" name="wall{{.}}_temp" id="wall{{.}}_temp" /></td>
+        <td class="enabler"><input type="checkbox" id="enable_door_{{.}}" name="enable_door_{{.}}" /></td>
+        <td class="enabler"><input type="checkbox" class="enabler" id="enable_window_{{.}}" name="enable_window_{{.}}" /></td>
+      </tr>
+
+      <tr id="door_{{.}}" hidden>
+        <td style="font-weight:normal">&#8627; Door</td>
+        <td><input class="form-control small_number" type="number" placeholder="Height" name="door{{.}}_height" /></td>
+        <td><input class="form-control small_number" type="number" placeholder="Width" name="door{{.}}_width" /></td>
+        <td>
+          <select class="form-control" name="door{{.}}_material">
+          {{#doors}}
+            <option>{{.}}</option>
+          {{/doors}}
+        </select>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr id="window_{{.}}" hidden>
+        <td style="font-weight:normal">&#8627; Window</td>
+        <td><input class="form-control small_number" type="number" placeholder="Height" name="window{{.}}_height" /></td>
+        <td><input class="form-control small_number" type="number" placeholder="Width" name="window{{.}}_width" /></td>
+        <td>
+          <select class="form-control" name="window{{.}}_material">
+          {{#windows}}
+            <option>{{.}}</option>
+          {{/windows}}
+        </select>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    {{/ws}}
+
+    <tr>
+      <td>Ceiling</td>
+      <td><input class="form-control small_number" type="number" placeholder="Depth" name="ceiling_height" /></td>
+      <td><input class="form-control small_number" type="number" placeholder="Width" name="ceiling_width" /></td>
+      <td>
+        <select class="form-control" name="ceiling_material">
+        {{#ceilings}}
+          <option>{{.}}</option>
+        {{/ceilings}}
+      </select>
+      </td>
+      <td><input class="form-control small_number" type="number" placeholder="Temp" name="ceiling_temp" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Floor</td>
+      <td><input class="form-control small_number" type="number" placeholder="Depth" name="floor_height" /></td>
+      <td><input class="form-control small_number" type="number" placeholder="Width" name="floor_width" /></td>
+      <td>
+        <select class="form-control" name="floor_material">
+        {{#floors}}
+          <option>{{.}}</option>
+        {{/floors}}
+      </select>
+      </td>
+      <td><input class="form-control small_number" type="number" placeholder="Temp" name="floor_temp" value="62" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+  </table>
+
+  <div class="clearfix"></div>
+
+  <div class="pull-right">
+    <button class="btn btn_back">Back</button>
+    <button class="btn btn-primary" id="btn_to_disclaimer">Next</button>
+  </div>
+
+</div>

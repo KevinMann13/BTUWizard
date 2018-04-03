@@ -1,0 +1,234 @@
+[
+  {
+    "family": "Self Contained",
+    "series": "SC Series",
+    "model": "SC 2000i",
+    "btuh": 1453,
+    "image": "sc_2000i",
+    "link": "http://whisperkool.com/sc-2000i/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "SC Series",
+    "model": "SC 3000i",
+    "btuh": 2049,
+    "image": "sc_3000i",
+    "link": "http://whisperkool.com/sc-3000i/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "SC Series",
+    "model": "SC 4000i",
+    "btuh": 2253,
+    "image": "sc_4000i",
+    "link": "http://whisperkool.com/sc-4000i/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "SC Series",
+    "model": "SC 6000i",
+    "btuh": 4009,
+    "image": "sc_6000i",
+    "link": "http://whisperkool.com/sc-6000i/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "SC Series",
+    "model": "SC 8000i",
+    "btuh": 4241,
+    "image": "sc_8000i",
+    "link": "http://whisperkool.com/sc-8000i/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Slimline",
+    "model": "Slimline 2500",
+    "btuh": 1453,
+    "image": "slimline_2500",
+    "link": "http://whisperkool.com/slimline-2500/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Slimline",
+    "model": "Slimline 3300",
+    "btuh": 2049,
+    "image": "slimline_3300",
+    "link": "http://whisperkool.com/slimline-3300/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Extreme Series",
+    "model": "Exteme 3500ti",
+    "btuh": 2514,
+    "image": "extreme_3500ti",
+    "link": "http://whisperkool.com/extreme-3500ti/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Extreme Series",
+    "model": "Exteme 5000ti",
+    "btuh": 3453,
+    "image": "extreme_5000ti",
+    "link": "http://whisperkool.com/extreme-5000ti/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Extreme Series",
+    "model": "Exteme 8000ti",
+    "btuh": 5606,
+    "image": "extreme_8000ti",
+    "link": "http://whisperkool.com/extreme-8000ti/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Phantom Series",
+    "model": "Phantom 3500",
+    "btuh": 4060,
+    "image": "phantom_3500",
+    "link": "http://whisperkool.com/phantom-3500/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Phantom Series",
+    "model": "Phantom 5000",
+    "btuh": 5521,
+    "image": "phantom_5000",
+    "link": "http://whisperkool.com/phantom-5000/"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Phantom Series",
+    "model": "Phantom 8000",
+    "btuh": 6025,
+    "image": "phantom_8000",
+    "link": "http://whisperkool.com/phantom-8000/"
+  },
+  {
+    "family": "Split",
+    "series": "Quantum",
+    "model": "Qunatum SS12000",
+    "btuh": 12530,
+    "image": "quantum_ss12000",
+    "link": "http://whisperkool.com/quantum-ss12000/"
+  },
+  {
+    "family": "Split",
+    "series": "Quantum",
+    "model": "Qunatum SS9000",
+    "btuh": 9572,
+    "image": "quantum_ss9000",
+    "link": "http://whisperkool.com/quantum-ss9000-1/"
+  },
+  {
+    "family": "Split",
+    "series": "Ceiling Mount",
+    "model": "Mini Ceiling Mount",
+    "btuh": 1730,
+    "image": "cm_mini",
+    "link": "http://whisperkool.com/mini-ceiling-mount/"
+  },
+  {
+    "family": "Split",
+    "series": "Ceiling Mount",
+    "model": "Ceiling Mount 4000",
+    "btuh": 3650,
+    "image": "cm_4000",
+    "link": "http://whisperkool.com/ceiling-mount-4000/"
+  },
+  {
+    "family": "Split",
+    "series": "Ceiling Mount",
+    "model": "Ceiling Mount 8000",
+    "btuh": 4900,
+    "image": "cm_8000",
+    "link": "http://whisperkool.com/ceiling-mount-8000/"
+  },
+  {
+    "family": "Split",
+    "series": "Ceiling Mount",
+    "model": "Ceiling Mount Twin",
+    "btuh": 8500,
+    "image": "cm_twin",
+    "link": "http://whisperkool.com/ceiling-mount-twin-split/"
+  },
+  {
+    "family": "Split",
+    "series": "Mini Split",
+    "model": "Platinum Mini Split",
+    "btuh": 1730,
+    "image": "platinum_mini_split",
+    "link": "http://whisperkool.com/platinum-mini-split/"
+  },
+  {
+    "family": "Split",
+    "series": "Platinum Split",
+    "model": "Platinum Split 4000",
+    "btuh": 3650,
+    "image": "platinum_split_4000",
+    "link": "http://whisperkool.com/platinum-split-4000/"
+  },
+  {
+    "family": "Split",
+    "series": "Platinum Split",
+    "model": "Platinum Split 8000",
+    "btuh": 5211,
+    "image": "platinum_split_8000",
+    "link": "http://whisperkool.com/platinum-split-8000/"
+  },
+  {
+    "family": "Split",
+    "series": "Platinum Split",
+    "model": "Platinum Split Twin",
+    "btuh": 8500,
+    "image": "platinum_split_twin",
+    "link": "http://whisperkool.com/platinum-split-twin/"
+  },
+  {
+    "family": "Fully Ducted",
+    "series": "Split Series",
+    "model": "Platinum Split 4000 - Ducted",
+    "btuh": 3120,
+    "image": "platinum_split_4000_ducted",
+    "link": "http://whisperkool.com/platinum-split-4000-ducted/"
+  },
+  {
+    "family": "Fully Ducted",
+    "series": "Split Series",
+    "model": "Platinum Split 8000 - Ducted",
+    "btuh": 3788,
+    "image": "platinum_split_8000_ducted",
+    "link": "http://whisperkool.com/platinum-split-8000-ducted/"
+  },
+  {
+    "family": "Fully Ducted",
+    "series": "Split Series",
+    "model": "Platinum Split Twin - Ducted",
+    "btuh": 7850,
+    "image": "platinum_split_twin_ducted",
+    "link": "http://whisperkool.com/platinum-split-twin-ducted/"
+  },
+  {
+    "family": "Fully Ducted",
+    "series": "Extreme Series",
+    "model": "Fully Ducted Extreme 3500tiR",
+    "btuh": 2514,
+    "image": "fd_extreme_3500",
+    "link": "http://whisperkool.com/fully-ducted-extreme-3500tir/"
+  },
+  {
+    "family": "Fully Ducted",
+    "series": "Extreme Series",
+    "model": "Fully Ducted Extreme 5000tiR",
+    "btuh": 3264,
+    "image": "fd_extreme_5000",
+    "link": "http://whisperkool.com/fully-ducted-extreme-5000tir/"
+  },
+  {
+    "family": "Fully Ducted",
+    "series": "Extreme Series",
+    "model": "Fully Ducted Extreme 8000tiR",
+    "btuh": 5606,
+    "image": "fd_extreme_8000",
+    "link": "http://whisperkool.com/fully-ducted-extreme-8000tir/"
+  }
+]

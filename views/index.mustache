@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  {{#wk}}
+    <link rel="stylesheet" type="text/css" href="wk_styles.css" />
+  {{/wk}}
+
+
+  {{#wk}}
+    <script>
+      var wk = true;
+    </script>
+  {{/wk}}
+
+  {{#cc}}
+    <script>
+      var cc = true;
+    </script>
+  {{/cc}}
+</head>
+
+<body>
+  <form id="cellar_form">
+    {{#wk}}
+      <input type="hidden" name="wk" value="true" />
+    {{/wk}}
+
+    {{#cc}}
+      <input type="hidden" name="cc" value="true" />
+    {{/cc}}
+    <div id="slideshow" class="slick-track">
+      <!-- Cellar Dimensions -->
+      <div class="slick-slide">
+        {{> start}}
+      </div>
+
+      <div class="slick-slide">
+        {{> params}}
+      </div>
+
+      <div class="slick-slide">
+        {{> advanced}}
+      </div>
+
+      <!-- Cellar Dimensions -->
+      <div class="slick-slide">
+        {{> dimensions}}
+      </div>
+
+      <!-- Glass -->
+      <div class="slick-slide">
+        {{> glass}}
+      </div>
+
+      <!-- Exterior -->
+      <div class="slick-slide">
+        {{> exterior}}
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="slick-slide">
+        {{> disclaimer}}
+      </div>
+
+      <!-- Summary -->
+      <div id="summary" class="slick-slide">
+        {{> summary}}
+      </div>
+
+    </div>
+    <input type="hidden" id="form_type" name="form_type" />
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="actions.js"></script>
+</body>
+
+</html>

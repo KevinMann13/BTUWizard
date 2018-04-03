@@ -1,0 +1,40 @@
+<h3>Glass</h3>
+<div class="description">
+  How much glass (including windows) is in your cellar? Leave blank if there is no glass.
+</div>
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Height</label>
+      <div class="input-group">
+        <input type="number" class="form-control" placeholder="Height" name="glass_height">
+        <div class="input-group-addon">ft</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Width</label>
+      <div class="input-group">
+        <input type="number" class="form-control" placeholder="Width" name="glass_width">
+        <div class="input-group-addon">ft</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="exampleInputEmail1">Material</label>
+  <select class="form-control" name="glass_material">
+    {{#windows}}
+      <option>{{.}}</option>
+    {{/windows}}
+    </select>
+</div>
+
+<div class="pull-right">
+  <button class="btn btn_back">Back</button>
+  <button class="btn btn-primary btn_next">Next</button>
+</div>

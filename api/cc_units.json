@@ -1,0 +1,247 @@
+[
+  {
+    "family": "Self Contained",
+    "series": "CX Series",
+    "model": "CX2200",
+    "btuh": 1453,
+    "image": "cx-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "CX Series",
+    "model": "CX3300",
+    "btuh": 2049,
+    "image": "cx-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "CX Series",
+    "model": "CX4400",
+    "btuh": 2952,
+    "image": "cx-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "CX Series",
+    "model": "CX8800",
+    "btuh": 4754,
+    "image": "cx-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Ultimate Series",
+    "model": "Ultimate 3300 (remote)",
+    "btuh": 2688,
+    "image": "ultimate"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Ultimate Series",
+    "model": "Ultimate 4400 (remote)",
+    "btuh": 4126,
+    "image": "ultimate"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Ultimate Series",
+    "model": "Ultimate 8800 (remote)",
+    "btuh": 5760,
+    "image": "ultimate"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Fully Ducted Ultimate Series",
+    "model": "Ultimate-FD3300",
+    "btuh": 2688,
+    "image": "fd-ultimate"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Fully Ducted Ultimate Series",
+    "model": "Ultimate-FD4400",
+    "btuh": 3794,
+    "image": "fd-ultimate"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Fully Ducted Ultimate Series",
+    "model": "Ultimate-FD8800",
+    "btuh": 5760,
+    "image": "fd-ultimate"
+  },
+  {
+    "family": "Self Contained",
+    "series": "SL Series",
+    "model": "SL2500",
+    "btuh": 1453,
+    "image": "sl-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Ultimate Plus  Series",
+    "model": "Ultimate Plus 3300",
+    "btuh": 4060,
+    "image": "ultimate-plus-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Ultimate Plus  Series",
+    "model": "Ultimate Plus 4400",
+    "btuh": 5521,
+    "image": "ultimate-plus-series"
+  },
+  {
+    "family": "Self Contained",
+    "series": "Ultimate Plus  Series",
+    "model": "Ultimate Plus 8800",
+    "btuh": 6025,
+    "image": "ultimate-plus-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Magnum Fully Ducted Split Series",
+    "model": "FDS9000",
+    "btuh": 9572,
+    "image": "split-magnum-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Magnum Fully Ducted Split Series",
+    "model": "FDS12000",
+    "btuh": 12530,
+    "image": "split-magnum-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Ceiling Mount (CM) Split Series",
+    "model": "CM2500-S",
+    "btuh": 1730,
+    "image": "split-cm-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Ceiling Mount (CM) Split Series",
+    "model": "CM3500-S",
+    "btuh": 3650,
+    "image": "split-cm-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Ceiling Mount (CM) Split Series",
+    "model": "CM5000-S",
+    "btuh": 4900,
+    "image": "split-cm-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Ceiling Mount (CM) Split Series",
+    "model": "CMTWIN-S",
+    "btuh": 8500,
+    "image": "split-cm-series-twin"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Wall Mount (WM) Split Series",
+    "model": "WM2500-S",
+    "btuh": 1730,
+    "image": "split-wm-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Wall Mount (WM) Split Series",
+    "model": "WM3500-S",
+    "btuh": 3650,
+    "image": "split-wm-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Wall Mount (WM) Split Series",
+    "model": "WM5000-S",
+    "btuh": 5211,
+    "image": "split-wm-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Wall Mount (WM) Split Series",
+    "model": "WMTWIN-S",
+    "btuh": 8500,
+    "image": "split-wm-series-twin"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Fully Ducted (FD) Split Series",
+    "model": "FD3500-S",
+    "btuh": 3120,
+    "image": "split-fd-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Fully Ducted (FD) Split Series",
+    "model": "FD5000-S",
+    "btuh": 3788,
+    "image": "split-fd-series"
+  },
+  {
+    "family": "Split Systems",
+    "series": "Fully Ducted (FD) Split Series",
+    "model": "FDTWIN-S",
+    "btuh": 3788,
+    "image": "split-fd-series-twin"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Ceiling Mount (CM) Coil w/Remote Series",
+    "model": "CM2500-CR",
+    "btuh": 1730,
+    "image": "coil-cm-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Ceiling Mount (CM) Coil w/Remote Series",
+    "model": "CM3500-CR",
+    "btuh": 3650,
+    "image": "coil-cm-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Ceiling Mount (CM) Coil w/Remote Series",
+    "model": "CM5000-CR",
+    "btuh": 4900,
+    "image": "coil-cm-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Wall Mount (WM) Coil Series",
+    "model": "WM2500-C",
+    "btuh": 1730,
+    "image": "coil-wm-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Wall Mount (WM) Coil Series",
+    "model": "WM3500-C",
+    "btuh": 3650,
+    "image": "coil-wm-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Wall Mount (WM) Coil Series",
+    "model": "WM5000-C",
+    "btuh": 5211,
+    "image": "coil-wm-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Fully Ducted (FD) Coil Series",
+    "model": "FD5000-C",
+    "btuh": 3120,
+    "image": "coil-fd-series"
+  },
+  {
+    "family": "Evap. Coil/Control",
+    "series": "Fully Ducted (FD) Coil Series",
+    "model": "FD3500-C",
+    "btuh": 3788,
+    "image": "coil-fd-series"
+  }
+]

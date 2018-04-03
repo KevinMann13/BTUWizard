@@ -1,0 +1,115 @@
+<h3>Summary</h3>
+
+<h4>Inputs</h4>
+<div id="simple_inputs">
+  <table class="summary_inputs table-striped">
+    <tr>
+      <td>Room Dimensions</td>
+      <td id="summary_room_dimensions"></td>
+    </tr>
+    <tr>
+      <td>Wall Material</td>
+      <td id="summary_wall_material"></td>
+    </tr>
+    <tr class="glass_output">
+      <td>Glass Dimensions</td>
+      <td id="summary_glass_dimensions"></td>
+    </tr>
+    <tr class="glass_output">
+      <td>Glass Material</td>
+      <td id="summary_glass_material"></td>
+    </tr>
+    <tr>
+      <td>Average Exterior Temp</td>
+      <td id="exterior_temp_output"></td>
+    </tr>
+  </table>
+</div>
+
+<div id="advanced_inputs">
+  <table>
+    <tr>
+      <th></th>
+      <th>Height</th>
+      <th>Width</th>
+      <th>Material</th>
+      <th>Exterior Temp</th>
+    </tr>
+    {{#ws}}
+      <tr id="summary_wall_{{.}}" class="summary_block summary_output">
+        <td>Wall #{{.}}</td>
+        <td id="summary_wall_{{.}}_height"></td>
+        <td id="summary_wall_{{.}}_width"></td>
+        <td id="summary_wall_{{.}}_material"></td>
+        <td id="summary_wall_{{.}}_exterior_temp"></td>
+      </tr>
+      <tr id="summary_door_{{.}}" class="summary_output">
+        <td style="font-weight:normal">&#8627; Door</td>
+        <td id="summary_door_{{.}}_height"></td>
+        <td id="summary_door_{{.}}_width"></td>
+        <td id="summary_door_{{.}}_material"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="summary_window_{{.}}" class="summary_output">
+        <td style="font-weight:normal">&#8627; Window</td>
+        <td id="summary_window_{{.}}_height"></td>
+        <td id="summary_window_{{.}}_width"></td>
+        <td id="summary_window_{{.}}_material"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    {{/ws}}
+    <tr id="summary_ceiling" class="summary_block">
+      <td>Ceiling</td>
+      <td id="summary_ceiling_height"></td>
+      <td id="summary_ceiling_width"></td>
+      <td id="summary_ceiling_material"></td>
+      <td id="summary_ceiling_exterior_temp"></td>
+    </tr>
+    <tr id="summary_floor" class="summary_block">
+      <td>Floor</td>
+      <td id="summary_floor_height"></td>
+      <td id="summary_floor_width"></td>
+      <td id="summary_floor_material"></td>
+      <td id="summary_floor_exterior_temp"></td>
+    </tr>
+  </table>
+</div>
+
+
+<h4>Results</h4>
+<table class="summary_inputs">
+  <tr id="load_row">
+    <td>Total Cellar Load</td>
+    <td id="load_output"></td>
+  </tr>
+</table>
+
+<div class="row">
+  <h4>Recommended Units</h4>
+  <div id="recommended_units">
+  </div>
+</div>
+
+<div class="disclaimer">
+  <b>*Disclaimer</b>
+  <ul>
+    <li><b>The accuracy of the results</b> of this program are contingent upon the information provided. This document should only be used to provide a baseline reading. You should always consult a wine cellar professional to ensure that all variables which
+      may affect a cooling unit's performance and function are accounted for.</li>
+    <li><b><a href="https://youtu.be/R-y1wFGpYBM" target="_blank">Cellar construction</a></b> is critical to the overall performance of the cooling unit. The quality and amount of the insulation used in your cellar's construction will affect the cooling unit's capacity, run time, and energy usage.</li>
+    <li><b><a href="https://youtu.be/n8YXX_yxm-U" target="_blank">An adequate vapor barrier</a></b> is paramount to the performance and efficiency of the cooling unit. A poor vapor barrier allows moisture to enter the cellar. This limits the cooling system's overall capacity, causes the unit to run longer, and generates
+      excess condensation (which then needs to be disposed of).</li>
+    <li><b><a href="https://youtu.be/SEhXB1ybP6M" target="_blank">Verify that the recommended cooling system</a></b> is the best fit for your cellar. Consult with a qualified cellar contractor/ designer and make sure that you've considered all the variables (especially adequate ventilation and noise) before you select
+      a cooling unit.</li>
+  </ul>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div class="pull-right">
+  <button class="btn btn_back">Back</button>
+</div>
