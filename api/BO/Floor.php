@@ -8,9 +8,9 @@ include_once "RoomOBJ.php";
 class Floor extends RoomOBJ
 {
     const UFACTORS = array(
-      "Slab Foundation"=>0,
-      "R30 Raised Foundation"=>0.04,
-      "R19 Raised Foundation"=>0.05
+      "Slab Foundation"=>1.50,
+      "R30 Raised Foundation"=>1.50,
+      "R19 Raised Foundation"=>1.50
     );
 
     public function calcBTUH()
