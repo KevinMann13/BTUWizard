@@ -24,7 +24,7 @@ class Room
 
         $this->floor = new Floor();
         $this->floor->set_size($w, $d);
-        $this->floor->exterior_temp = 62;
+        $this->floor->exterior_temp = 65;
         $this->floor->desired_temp = $this->desired_temp;
 
         $w_area = ($h*$w*2) + ($h*$d*2);
@@ -49,10 +49,6 @@ class Room
             $this->walls[] = $wall;
         }
 
-
-        //$infiltrationCFM = ($h*$w*$d) / 60;
-        //$this->infiltrationBTU = 1.1 * ($this->exterior_temp - $this->desired_temp);
-
         return $this->calc();
     }
 
@@ -66,6 +62,7 @@ class Room
             $temp = !empty($params["wall" . $x . "_temp"])?$params["wall" . $x . "_temp"]:75;
 
             $this->cellar_height = $height;
+            $this->exterior_temp = $temp;
 
             $wall = new Wall();
             $wall->set_size($width, $height);
@@ -129,7 +126,10 @@ class Room
 
     public function calc()
     {
-        $btu = 0;
+
+        $infiltrationCFM = ($this->ceiling->area * $this->walls[0]->height) / 60;
+        $btu = $infiltrationCFM * 1.1 * ($this->exterior_temp - $this->desired_temp);
+
         $btu += $this->ceiling->calcBTUH();
         $btu += $this->floor->calcBTUH();
 
