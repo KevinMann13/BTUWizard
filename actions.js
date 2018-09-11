@@ -189,6 +189,11 @@ function fillOutResults(data) {
   });
   $("#recommended_units").html(systems);
 
+  if( results.models.length == 0 ){
+    var nounits_message = "<b>The BTU Load is larger than the capacity of our single systems.  PLEASE CALL WHISPERKOOL SALES at 800-343-9463 Ext 2 for assistance.</b>"
+    $("#recommended_units").html(nounits_message);
+  }
+
   $(slideshow).slick('slickGoTo', 7, comingFromAdvanced);
 }
 
